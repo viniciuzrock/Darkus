@@ -1,0 +1,100 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+:root{
+    --white: #CBD0F7;
+    --blue: #0D1523;
+    --blue_dark: #070f1d;
+    --green-blue: linear-gradient(325deg, #00f260, #0575e6);
+}
+/* CORPO */
+body{
+    /* background-color: var(--blue); */
+    /* background-color: #061625; */
+    /* background-color: #061625e0; */
+    background-color: #07213a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+/* FUNDO LOGIN */
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* CAMPO DE LOGIN */
+.login {
+    background-color: var(--blue_dark);
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    height: 350px;
+    padding: 25px;
+}
+/* DIV DO LOGO */
+.logo{
+    align-items: center;
+    margin-left: 35%;
+}
+/* LOGO */
+.login img{
+    width: 100px;
+    height: 100px;
+    background: var(--green-blue);
+    /* background: linear-gradient(325deg, #00f260, #0575e6); */
+    transition: ease-in-out 0.3s;
+    border-radius: 15px;
+} 
+
+.login img:hover{
+    background: linear-gradient(125deg, #00f260, #0575e6);
+}
+
+
+/* FORMULARIO */
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* INPUTS DO LOGIN */
+.login input{
+    margin-top: 10px;
+    background-color: #252a34;
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 8px;
+    padding-left: 15px;
+    color: var(--white);
+}
+input::placeholder{
+    color: var(--white);
+    font-size: 14px;
+}
+form [type="submit"]{
+    display: block;
+    color: var(--blue);
+    background-color: var(--white);
+    transition: 2.3s;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+form [type="submit"]:hover{
+    transition: 2.15s ease-in-out;
+    background: linear-gradient(325deg, #00f260, #0575e6);
+}
+
+p{
+    color: var(--white);
+}
+
+a{
+    color: #0575e6;
+    text-decoration: none;
+}

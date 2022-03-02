@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../inicial/CSS/style.css">
+    
+    <title>Darkus - Home</title>
+</head>
+<body>
+    <header>
+        <div  class="btn-menu" onclick="AbreMenu()">
+            <img src="https://img.icons8.com/material/48/ffffff/menu--v1.png" />
+        </div>
+        <div class="top">
+            O que vamos jogar hoje? 
+        </div>
+        
+    </header>
+    <aside>
+        <div class="barra-menu" id="BotaoMenu">
+            <ul id="lista">
+                <div class="campolista">
+                    <li class="ListaItem"><a href="">Perfil</a></li>
+                </div>
+                <div class="campolista">
+                    <li class="ListaItem"><a href="">Amigos</a></li>
+                </div>
+               <div class="campolista">
+                    <li class="ListaItem"><a href="">Conquistas</a></li>
+                </div>
+                <div class="campolista">
+                    <li class="ListaItem"><a href="">Favoritos</a></li>
+                </div>
+                <div class="campolista">
+                    <li class="ListaItem"><a href="">Lançamentos</a></li>
+                </div>
+                <div class="campolista">
+                    <li class="ListaItem"><a href="">Configurações</a></li>
+                </div>
+            </ul>
+        </div>
+    </aside>
+    <section class="cabecalho">
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()">&laquo</div>
+                <div class="slider--control" onclick="goNext()">&raquo</div>
+            </div>
+            <div class="slider--width" > 
+                <div class="slider--item" style="background-image: url(../inicial/pictures/halo.jfif);">
+                    <span>Halo: Infinity</span>
+                </div>
+                <div class="slider--item" style="background-image: url(../inicial/pictures/gearsofwar.jpg);">
+                    <span>Gears Of War: Judgment</span>
+                </div>
+                <div class="slider--item" style="background-image: url(../inicial/pictures/masseffect.jpg);">
+                    <span>Mass Effect: Andromeda</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../inicial/JS/script.js"></script>
+    <footer>
+        <h1>
+            Resto do site
+        </h1>
+    </footer>
+
+</body>
+</html>
